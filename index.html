@@ -14,60 +14,80 @@
   <script src="dashboard.js" defer></script>
 </head>
 <body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+  <main>
+    <h1 class="sr-only">Time Tracking Dashboard</h1>
+    <div class="user-interface">
+      <div class="user">
+        <img src="images/image-jeremy.png" alt="Profile image of Jeremy" class="user-img">
+        <p>Report for</p>
+        <h2 class="user-name">Jeremy Robson</h2>
+      </div>
+      <div class="stat-switch">
+        <a class="daily" href="#">Daily</a>
+        <a class="weekly" href="#">Weekly</a>
+        <a class="monthly" href="#">Monthly</a>
+      </div>
+    </div>
+    <div class="stat work">
+      <div class="stat-title">
+        Work
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">32hrs</div>
+        <p class="stat-overview">Previous - 36hrs</p>
+      </div>
+    </div>
+    <div class="stat play">
+      <div class="stat-title">
+        Play
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">10hrs</div>
+        <p class="stat-overview">Previous - 8hrs</p>
+      </div>
+    </div>
+    <div class="stat study">
+      <div class="stat-title">
+        Study
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">4hrs</div>
+        <p class="stat-overview">Previous - 7hrs</p>
+      </div>
+    </div>
+    <div class="stat exercise">
+      <div class="stat-title">
+        Exercise
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">4hrs</div>
+        <p class="stat-overview">Previous - 5hrs</p>
+      </div>
+    </div>
+    <div class="stat social">
+      <div class="stat-title">
+        Social
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">5hrs</div>
+        <p class="stat-overview">Previous - 10hrs</p>
+      </div>
+    </div>
+    <div class="stat self-care">
+      <div class="stat-title">
+        Self Care
+        <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
+      </div>
+      <div class="stat-data-wrapper">
+        <div class="stat-total-data">2hrs</div>
+        <p class="stat-overview">Previous - 2hrs</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
