@@ -1,0 +1,23 @@
+:root {
+    /* Primary */
+    --clr-primary-blue: hsl(246, 80%, 60%);
+
+    --clr-primary-work: hsl(15, 100%, 70%);
+    --clr-primary-play: hsl(195, 74%, 62%);
+    --clr-primary-study: hsl(348, 100%, 68%);
+    --clr-primary-exercise: hsl(145, 58%, 55%);
+    --clr-primary-social: hsl(264, 64%, 52%);
+    --clr-primary-selfcare: hsl(43, 84%, 65%);
+
+    /* Neutral */
+    --clr-neutral-xdarkblue: hsl(226, 43%, 10%);
+    --clr-neutral-darkblue: hsl(235, 46%, 20%);
+    --clr-neutral-desatblue: hsl(235, 45%, 61%);
+    --clr-neutral-paleblue: hsl(236, 100%, 87%);
+
+    --ff-primary: 'Rubik', sans-serif;
+    --fs-base: 1.125rem;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 500;
+}
