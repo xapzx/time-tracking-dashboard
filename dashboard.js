@@ -8,7 +8,7 @@ async function setData(overview) {
     let index = 0;
     cards.forEach(card => {
         const data = jsonData[index]["timeframes"];
-        card.querySelector('.stat-total-data').innerText = data[overview]["current"];
+        card.querySelector('.stat-total-data').innerText = data[overview]["current"] + "hrs";
 
         let previous = "Last week"
         if(overview === "daily") {
